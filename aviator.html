@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Aviator</title>
+    <link rel="stylesheet" href="aviator-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo Aviator</h1>
+        <div class="game">
+            <div class="aviao" id="aviao">✈️</div>
+        </div>
+        <div class="controls">
+            <input type="number" id="betAmount" placeholder="Valor da Aposta">
+            <button id="placeBet">Apostar</button>
+            <button id="cashOut" disabled>Retirar</button>
+        </div>
+        <p id="message"></p>
+        <p id="multiplier">Multiplicador: 1x</p>
+    </div>
+    <script src="aviator-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Roleta</title>
+    <link rel="stylesheet" href="roulette-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Roleta</h1>
+        <div class="roulette">
+            <div class="wheel" id="wheel">🎡</div>
+        </div>
+        <div class="controls"><!--nao mexer-->
+            <input type="number" id="betAmountRoulette" placeholder="Valor da Aposta">
+            <select id="colorChoice">
+                <option value="Vermelho">Vermelho</option>
+                <option value="Preto">Preto</option>
+                <option value="Verde">Verde</option>
+            </select>
+            <button id="spinButtonRoulette">Girar</button>
+        </div> <!--nao mexer-->
+        <p id="rouletteResult"></p>
+    </div>
+    <script src="roulette-script.js"></script>
+</body>
+</html>

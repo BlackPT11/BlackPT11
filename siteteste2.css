@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #111;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 170px;
+}
+
+.menu a {
+    text-decoration: none;
+    width: 100%;
+}
+
+.menu button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.menu button:hover {
+    background-color: darkred;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 167px;
+}
+
+.top-bar a {
+    text-decoration: none;
+}
+
+.register, .login {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.register:hover, .login:hover {
+    background-color: darkred;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.game img {
+    width: 280px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
